@@ -34,7 +34,7 @@ body {
 
 .container {
     width: 1000px;
-    height: 800px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 60px;
     background-color: #fff;
@@ -69,4 +69,68 @@ body {
 hr {
     margin-top: 10px;
     border: 1px solid #F6F8F9;
+}
+
+/* LIST ITEMS */
+
+.father-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.child-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-color-editorial, .text-color-goals, .text-color-mobile, .text-color-recruiting, .text-color-sales, .text-color-website {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #fff;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.text-color-editorial {
+    background-color: #47ADF1;
+}
+
+.text-color-goals {
+    background-color: #9C72E4;
+}
+
+.text-color-recruiting {
+    background-color: #64C0A9;
+}
+
+.text-color-mobile {
+    background-color: #F29E33;
+}
+
+.text-color-website {
+    background-color: #D863A1;
+}
+
+.text-color-sales {
+    background-color: #B0C926;
+}
+
+.icon-check-mark, .icon-ballot-x {
+    margin-left: 45px;
+    line-height: 40px;
+}
+
+.icon-check-mark {
+    color: green;
+}
+
+.icon-ballot-x {
+    color: red;
 }
