@@ -41,27 +41,26 @@ body {
     border-radius: 10px;  
 }
 /* BUTTONS */
-.btn-on {
-    background-color: #47ADF1;
-    color: #fff;
+
+.btn-on, .btn-off {
     border-radius: 5px;
-    border: solid #47ADF1;
     padding: 6px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 15px;
+}
+
+.btn-on {
+    background-color: #47ADF1;
+    color: #fff;
+    border: solid #47ADF1;
     margin-left: 40px;
 }
 
 .btn-off {
-    background-color: #fff;
+    background-color: transparent;
     color: rgb(201, 199, 199);
-    border-radius: 5px;
     border: solid rgb(201, 199, 199);
-    padding: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 15px;
     margin-left: 5px;
 }
 /* END BUTTONS */
@@ -73,6 +72,10 @@ hr {
 
 /* LIST ITEMS */
 
+ul {
+    list-style-type: none;
+}
+
 li {
     margin-left: 60px;
 }
@@ -82,6 +85,7 @@ li {
     font-size: 20px;
     font-weight: 800;
     margin-top: 20px;
+    margin-left: -20px;
 }
 
 .child-text {
@@ -125,9 +129,15 @@ li {
     background-color: #B0C926;
 }
 
+.circle {
+    border-radius: 50px;
+    border: 1px solid;
+}
+
 .icon-check-mark, .icon-ballot-x {
     line-height: 40px;
     margin-left: -15px;
+    font-size: 20px;
 }
 
 .icon-check-mark {
